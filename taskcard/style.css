@@ -1,0 +1,57 @@
+*{
+    margin: o;
+    padding: 0;
+  
+}
+body{
+    background-color: rgb(233, 187, 118);
+   font-family: Verdana,sans-serif;
+   
+}
+.ParentBox{
+    width: 80%;
+    margin: 50px auto;
+    display:block;
+}
+.parent{
+    text-align: center;
+font-size: 60px;
+margin-bottom: 10px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:last baseline;
+    flex-flow: wrap;
+    display: inline;
+    
+  }
+  .card{
+      width:35% ;
+      border-radius: 20px;
+      background-color: rgb(150, 30, 30);
+      border: 5px solid rgb(89, 36, 214);
+      margin: bottom 100px;
+      transition: 0.5em;
+
+  }
+  .card-header {
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #991635, #d87f6f);
+    color: rgb(182, 236, 54);
+  }
+  .card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(21, 180, 61, 0.25);
+  }
+  
+  
