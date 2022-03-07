@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tillana', cursive;
+    
+}
+
+.bg-style{
+     background-image: url(../img/backgraund.webp);
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center bottom;
+  background-size: cover;
+ 
+}
+.pace{
+    padding: 8rem;
+    width: 55%;
+}
+.bg-style .pace p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-style .pace h2{
+color: brown;
+text-decoration:underline;
+}
+.button{
+    background-color: brown;
+    border-radius: 20px;  
+    color: black;
+    text-align: center;
+    text-size-adjust: 3px;
+    letter-spacing: 2px;
+    padding:4px;
+    box-shadow: 10px;
+}
+.bg-style .button :hover{
+background-size: contain;
+}
+.bg-style2{
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center bottom;
+  background-size: cover;
+   }
+.continer2 .bg-style2 {
+    background-image: url(../img/—Pngtree—isolate\ trees\ on\ white\ background_3764487.png)  ;
+ 
+filter: contrast(1.1);
+}
+
+.continer2 .bg-style2{
+    text-align: center;
+text-size-adjust: 10px;;
+padding-top: 100px;
+
+
+}
+
+
+  
