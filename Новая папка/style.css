@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+body{width: 10vm;
+    height:600px;
+  background-color: rgb(68, 209, 209);
+    background-image: url(../Bg-Task/img/hero-1.png);
+    background-repeat: no-repeat;
+    background-size: 480px;
+background-position: center;
+  background-position:90%;
+}
+.menu{
+    width: 100vm;
+    margin-left: 200px;
+}
+ul li a{
+    color: rgb(250, 248, 248);
+  
+   padding: 15px;
+ 
+}
+.icon .logo span{
+ color: rgb(15, 15, 184);  
+ 
+
+
+}
+.logo{
+    color: white;
+  padding-right: 20px;
+}
+ul{
+    list-style-type: none;
+}
+ul li:hover{
+    background-color: rgb(37, 6, 177);
+
+}
+
+
+ul li:hover a{
+    color: rgb(48, 236, 236);
+}
+.nav{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+
+
+}
+ul li{
+    padding: 10px;
+    display: flex;
+float: left;
+}
+main .mainh1{
+    
+    margin-top: 60px;
+    margin-left: 30px; 
+    color: white;
+    width: 55%;
+    word-spacing: 5px;
+}
+.mainh1 p{
+    padding-top: 10px;
+    letter-spacing: 2px;
+    line-height:20px;
+}
+
+
+.abtn{
+    border-style: none;
+   background: none;
+    padding: 5px;
+    margin-left: 20px;
+
+    color: rgb(255, 255, 255);
+}
+.mainh1  :hover .abtn {
+    color: blue;
+}
+ 
+.btnbtn{
+    width: 200px;
+    color: rgb(8, 207, 207);
+    padding:20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:8px;
+    
+}
+.btnbtn:hover{
+    background-color: blue;
+}
+.mainh1 a{
+    color: white;
+    text-decoration-skip: 10px;
+}
+.box1{
+    background-color: rgb(61, 48, 180);
+    border-color: black;
+    width: 200px;
+    height: 300px;
+    border: 20px;
+    padding: 30px;
+    margin-right: 10px;
+}
+.box2{
+    margin-right: 10px;
+    background-color: rgb(65, 91, 241);
+    border-color: black;
+    width: 200px;
+    height: 300px;
+    border: 20px;
+    padding: 30px;
+}
+.box3{
+    margin-right: 10px;
+    background-color: rgb(43, 76, 226);
+    border-color: black;
+    width: 200px;
+    height: 300px;
+    border: 20px;
+    padding: 30px;
+}
+.box4{ padding: 30px;
+    background-color: rgb(54, 86, 190);
+    border-color: black;
+    width: 200px;
+    height: 300px;
+    border: 20px;
+}
+.boxmain{
+    display: flex;
+   margin: 100px;
+}
+.boxmain h2{
+    word-spacing: normal;
+  color: white;
+}
+
+.boxmain p{
+    word-spacing: normal;
+    margin-top: 20px;
+}
+.boxmain .box1:hover{
+    background-color: rgb(18, 131, 131);
+   
+}
+
+.boxmain .box2:hover{
+    background-color: rgb(5, 151, 151);
+}
+
+
+.boxmain .box3:hover{
+    background-color:  rgb(5, 151, 151); 
+}
+
+.boxmain .box4:hover{
+    background-color: rgb(5, 151, 151);
+}
+.boxmain .box1:hover h2{
+    color: rgb(167, 100, 0);
+}
+
+.boxmain .box2:hover h2{
+    color: rgb(167, 100, 0);
+}
+.boxmain .box3:hover h2{
+    color: rgb(167, 100, 0);
+}
+.boxmain .box4:hover h2{
+    color: rgb(167, 100, 0);
+}
+
+
+
+
+
+
+
