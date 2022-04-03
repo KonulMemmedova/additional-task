@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@200;300&family=Roboto+Serif:wght@300;400&family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap");
+body main {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Serif', serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+body main #Regform {
+  background-image: url(../img/bg-registration-form-7.jpg);
+  background-repeat: no-repeat;
+  min-height: 150vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  position: relative;
+}
+
+body main #Regform .cantact {
+  background-color: #2235b3;
+  position: absolute;
+  width: 60%;
+  height: 630px;
+  top: 0;
+  left: 20%;
+  bottom: 0;
+}
+
+body main #Regform .cantact form {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+}
+
+body main #Regform .cantact form h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 52px;
+  margin-top: 30px;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+body main #Regform .cantact form p {
+  margin-bottom: 55px;
+  line-height: 1.8;
+  font-size: 15px;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+
+body main #Regform .cantact form label {
+  font-family: "Montserrat-Regular";
+  color: #fff;
+  display: block;
+  position: relative;
+  font-size: 15px;
+}
+
+body main #Regform .cantact form label span {
+  cursor: text;
+}
+
+body main #Regform .cantact form label span .border {
+  height: 2px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 41px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+  background: #fff;
+}
+
+body main #Regform .cantact form label textarea {
+  border: none;
+  background: none;
+  border-bottom: 2px solid #00ade6;
+  display: block;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  margin-top: 28px;
+}
+
+body main #Regform .cantact form label textarea .formControl {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body main #Regform .cantact form label span {
+  font-size: 15px;
+  color: #00ade6;
+  position: absolute;
+  top: 10px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  cursor: text;
+}
+
+body main #Regform .cantact form label input {
+  border: none;
+  background: none;
+  border-bottom: 2px solid #00ade6;
+  display: block;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  margin-top: 28px;
+}
+
+body main #Regform .cantact form label .border {
+  height: 2px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 41px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+  background: #fff;
+}
+
+body main #Regform .cantact form button {
+  border: none;
+  width: 162px;
+  height: 51px;
+  border: 2px solid #fff;
+  margin: auto;
+  margin-top: 60px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat-SemiBold";
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  letter-spacing: 3px;
+  font-weight: 41px;
+  font-size: 16px;
+}
+
+body main #Regform .cantact form button button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+body main #Regform .cantact form button i {
+  scroll-padding-left: 3px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
